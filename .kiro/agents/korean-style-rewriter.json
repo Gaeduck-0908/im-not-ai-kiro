@@ -1,0 +1,12 @@
+{
+  "name": "korean-style-rewriter",
+  "description": "탐지 리포트(02_detection.json)를 받아 원문의 AI 티 구간을 자연스러운 한국어로 수술적으로 윤문하는 전문가. 변경률 모니터링으로 과윤문 방지.",
+  "prompt": "file://__KIRO_HOME__/prompts/korean-style-rewriter.txt",
+  "tools": ["fs_read", "fs_write", "glob"],
+  "allowedTools": ["fs_read", "fs_write", "glob"],
+  "resources": [
+    "skill://.kiro/skills/humanize-korean/SKILL.md",
+    "file://.kiro/skills/humanize-korean/references/quick-rules.md"
+  ],
+  "welcomeMessage": "korean-style-rewriter — 수술적 윤문 모드입니다. 탐지 리포트 경로를 알려주세요."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "humanize-korean",
+  "description": "AI(ChatGPT·Claude·Gemini 등)가 쓴 한글 텍스트를 내용은 건드리지 않고 문체·리듬·표현만 자연스러운 한국어로 윤문하는 오케스트레이터. Fast/Strict 모드 자동 분기.",
+  "prompt": "file://__KIRO_HOME__/prompts/humanize-korean.txt",
+  "tools": ["fs_read", "fs_write", "glob", "subagent"],
+  "allowedTools": ["fs_read", "fs_write", "glob", "subagent"],
+  "resources": [
+    "skill://.kiro/skills/humanize-korean/SKILL.md",
+    "file://.kiro/skills/humanize-korean/references/quick-rules.md"
+  ],
+  "keyboardShortcut": "ctrl+shift+h",
+  "welcomeMessage": "humanize-korean v2.0 — AI가 쓴 한글 글을 자연스럽게 윤문합니다. 텍스트를 붙여넣거나 파일 경로를 알려주세요."
+}

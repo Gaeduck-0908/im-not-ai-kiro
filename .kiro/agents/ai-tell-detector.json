@@ -1,0 +1,12 @@
+{
+  "name": "ai-tell-detector",
+  "description": "한글 텍스트에서 AI 티 패턴(10대분류 × 40+ 서브 패턴)을 span 단위로 탐지해 JSON 리포트를 생성하는 전문가. Strict 모드 파이프라인의 첫 단계.",
+  "prompt": "file://__KIRO_HOME__/prompts/ai-tell-detector.txt",
+  "tools": ["fs_read", "fs_write", "glob"],
+  "allowedTools": ["fs_read", "fs_write", "glob"],
+  "resources": [
+    "skill://.kiro/skills/humanize-korean/SKILL.md",
+    "file://.kiro/skills/humanize-korean/references/quick-rules.md"
+  ],
+  "welcomeMessage": "ai-tell-detector — AI 티 탐지 모드입니다. 분석할 텍스트 경로를 알려주세요."
+}

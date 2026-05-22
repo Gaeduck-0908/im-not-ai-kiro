@@ -1,0 +1,12 @@
+{
+  "name": "naturalness-reviewer",
+  "description": "윤문본의 자연스러움을 최종 판정하는 리뷰어. 잔존 AI 티·과윤문·자연도를 평가하고 품질 등급(A~D)을 부여한다.",
+  "prompt": "file://__KIRO_HOME__/prompts/naturalness-reviewer.txt",
+  "tools": ["fs_read", "fs_write", "glob"],
+  "allowedTools": ["fs_read", "fs_write", "glob"],
+  "resources": [
+    "skill://.kiro/skills/humanize-korean/SKILL.md",
+    "file://.kiro/skills/humanize-korean/references/quick-rules.md"
+  ],
+  "welcomeMessage": "naturalness-reviewer — 자연스러움 검증 모드입니다."
+}
