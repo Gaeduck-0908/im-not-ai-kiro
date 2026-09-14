@@ -1,0 +1,283 @@
+{
+  "repository": "https://github.com/epoko77-ai/im-not-ai",
+  "ref": "main",
+  "commit": "9747f036cdc28a1a8aea4dc71fef1f7846eb96f7",
+  "commit_date": "2026-09-06T15:16:57Z",
+  "skill_version": "2.3.2",
+  "synced_on": "2026-09-14",
+  "files": [
+    {
+      "path": ".kiro/scripts/build_diagnosis_rules.py",
+      "source": "scripts/build_diagnosis_rules.py",
+      "blob_sha": "b447836bc9dda7496dae192da97b23b6e8576a0f"
+    },
+    {
+      "path": ".kiro/scripts/build_quick_rules.py",
+      "source": "scripts/build_quick_rules.py",
+      "blob_sha": "c9180c7cafa51b41b89e6f45f5dde43135bd0478"
+    },
+    {
+      "path": ".kiro/scripts/checks.py",
+      "source": "scripts/checks.py",
+      "blob_sha": "f159dab9058870b60c7b19ce38ef5f01de7667a8"
+    },
+    {
+      "path": ".kiro/scripts/console.py",
+      "source": "scripts/console.py",
+      "blob_sha": "d9914519cce6f9235093bb8a5d501fd5d38b133f"
+    },
+    {
+      "path": ".kiro/scripts/prepare_monolith_input.py",
+      "source": "scripts/prepare_monolith_input.py",
+      "blob_sha": "b7ff6decdf8021f24bb2ab435e97401bfcd94441"
+    },
+    {
+      "path": ".kiro/scripts/reassemble_chunks.py",
+      "source": "scripts/reassemble_chunks.py",
+      "blob_sha": "6e32cc7816474b7fcfabfa575b42bf6a735ef85f"
+    },
+    {
+      "path": ".kiro/scripts/restore_modality.py",
+      "source": "scripts/restore_modality.py",
+      "blob_sha": "dc5e4a35e5e62bbb75c175877479a826183963af"
+    },
+    {
+      "path": ".kiro/scripts/sanitize_text.py",
+      "source": "scripts/sanitize_text.py",
+      "blob_sha": "a3709363a27160f5712595389689f476b9ab474b"
+    },
+    {
+      "path": ".kiro/scripts/strip_injected_commas.py",
+      "source": "scripts/strip_injected_commas.py",
+      "blob_sha": "1cbbd34a088df8803e981806b4b4f88722b93cbf"
+    },
+    {
+      "path": ".kiro/scripts/verify_change_rate.py",
+      "source": "scripts/verify_change_rate.py",
+      "blob_sha": "487ba5e1d83648b61e25195cf2445787e8d4755e"
+    },
+    {
+      "path": ".kiro/scripts/verify_gates.py",
+      "source": "scripts/verify_gates.py",
+      "blob_sha": "2358a492786985d8ba67ed644c3c3c1da40353a7"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/ai-tell-taxonomy.md",
+      "source": "skills/humanize-korean/references/ai-tell-taxonomy.md",
+      "blob_sha": "80d07307dac13283425a1c166d960420b96ce81d"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/baseline.json",
+      "source": "skills/humanize-korean/references/baseline.json",
+      "blob_sha": "8565b1e5efc3c336d956851aad7e1aace1900e63"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/baseline_v2.json",
+      "source": "skills/humanize-korean/references/baseline_v2.json",
+      "blob_sha": "c9e4bd79fc07dc63c70a7ef5f3824502621f8a84"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/design-notes.md",
+      "source": "skills/humanize-korean/references/design-notes.md",
+      "blob_sha": "a048ace24d41fb4735e79554b4436247c441f2dd"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/diagnosis-rules.md",
+      "source": "skills/humanize-korean/references/diagnosis-rules.md",
+      "blob_sha": "f1ecd82c8e8be5f46bef1f50b0ac597c66ddf2e9"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/empirical-validation.md",
+      "source": "skills/humanize-korean/references/empirical-validation.md",
+      "blob_sha": "14e8221a8315eaee26090c9b300085f9ac7df0f0"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/metrics.py",
+      "source": "skills/humanize-korean/references/metrics.py",
+      "blob_sha": "905387fbcf2a5b14b8fecd2a4ed23763249f4c50"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/metrics_v2.py",
+      "source": "skills/humanize-korean/references/metrics_v2.py",
+      "blob_sha": "dd6ca76e538f440e185cde0532fb469957f70da0"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/quick-rules.footer.md",
+      "source": "skills/humanize-korean/references/quick-rules.footer.md",
+      "blob_sha": "31b9a934f982c316859ee9b5785dab1a8d7f256a"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/quick-rules.header.md",
+      "source": "skills/humanize-korean/references/quick-rules.header.md",
+      "blob_sha": "0444e6e71f207bac7fdabeda09981e0236e4111e"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/quick-rules.md",
+      "source": "skills/humanize-korean/references/quick-rules.md",
+      "blob_sha": "0d0dc7a451cf91b48bd30928cef213ff4f177504"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/rewriting-playbook.md",
+      "source": "skills/humanize-korean/references/rewriting-playbook.md",
+      "blob_sha": "120b0a7806c7de576fb381795a78dd96ce30d767"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/scholarship.md",
+      "source": "skills/humanize-korean/references/scholarship.md",
+      "blob_sha": "ff531157b9dd7e68433f1a57232f1d40009e0176"
+    },
+    {
+      "path": ".kiro/skills/humanize-korean/references/web-service-spec.md",
+      "source": "skills/humanize-korean/references/web-service-spec.md",
+      "blob_sha": "2eeea6d9b6124cf9c13827d9496ec7136aa24d4b"
+    },
+    {
+      "path": ".kiro/tests/fixtures.json",
+      "source": "tests/fixtures.json",
+      "blob_sha": "896f3000736ee74cac600f9614c594706e1c42d5"
+    },
+    {
+      "path": ".kiro/tests/golden/README.md",
+      "source": "tests/golden/README.md",
+      "blob_sha": "2bec07b86712e7db0494cc8080d9667bec57d159"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/01_register_downgrade/bad_output.txt",
+      "source": "tests/golden/fixtures/01_register_downgrade/bad_output.txt",
+      "blob_sha": "30524e730772ec0e216e47b9e624ae764a40a4f6"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/01_register_downgrade/expected_failures.json",
+      "source": "tests/golden/fixtures/01_register_downgrade/expected_failures.json",
+      "blob_sha": "66b8940e12905e9196b37c96329e84affa44eb96"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/01_register_downgrade/good_output.txt",
+      "source": "tests/golden/fixtures/01_register_downgrade/good_output.txt",
+      "blob_sha": "0c9b8850e7fd80b0e3f26cba05b9c7727b9cdadc"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/01_register_downgrade/input.txt",
+      "source": "tests/golden/fixtures/01_register_downgrade/input.txt",
+      "blob_sha": "1d7b030ce20f953276f40c902f9dfa87c750601f"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/02_academic_structure/bad_output.txt",
+      "source": "tests/golden/fixtures/02_academic_structure/bad_output.txt",
+      "blob_sha": "afff614264f1a096b2cc8b74ee8af06744eca74c"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/02_academic_structure/expected_failures.json",
+      "source": "tests/golden/fixtures/02_academic_structure/expected_failures.json",
+      "blob_sha": "c18a4e1470ec62d036f1d02a274f5cf7e8e4fcac"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/02_academic_structure/good_output.txt",
+      "source": "tests/golden/fixtures/02_academic_structure/good_output.txt",
+      "blob_sha": "c754a992326ac543eabde8fecfbb094c8e1794bb"
+    },
+    {
+      "path": ".kiro/tests/golden/fixtures/02_academic_structure/input.txt",
+      "source": "tests/golden/fixtures/02_academic_structure/input.txt",
+      "blob_sha": "bfe4ff21a57b9b2655692225d2ec8f92cad47595"
+    },
+    {
+      "path": ".kiro/tests/humanize_asserts.py",
+      "source": "tests/humanize_asserts.py",
+      "blob_sha": "f99ef7002ed2758f8130fd1699225326cd25c71c"
+    },
+    {
+      "path": ".kiro/tests/test_chunking.py",
+      "source": "tests/test_chunking.py",
+      "blob_sha": "a35958227d3c76e3709626a2b567491ab6674f22"
+    },
+    {
+      "path": ".kiro/tests/test_diagnosis_rules_build.py",
+      "source": "tests/test_diagnosis_rules_build.py",
+      "blob_sha": "bbd20ddf3f0ca58794bd00ee745a2e1673645921"
+    },
+    {
+      "path": ".kiro/tests/test_golden.py",
+      "source": "tests/test_golden.py",
+      "blob_sha": "d1648c4b5e5604619c70c25e584fcced5ab5f33a"
+    },
+    {
+      "path": ".kiro/tests/test_humanize_asserts.py",
+      "source": "tests/test_humanize_asserts.py",
+      "blob_sha": "45eadad488b5c4f1c07ea78c082b8376f12489dc"
+    },
+    {
+      "path": ".kiro/tests/test_humanize_e2e.py",
+      "source": "tests/test_humanize_e2e.py",
+      "blob_sha": "f248d93570fca6a7bf28dd4bc7d87315a5e47ba0"
+    },
+    {
+      "path": ".kiro/tests/test_metrics.py",
+      "source": "tests/test_metrics.py",
+      "blob_sha": "3258c0ac4db0d17344b672e3b26f579aa448ccb8"
+    },
+    {
+      "path": ".kiro/tests/test_metrics_v2.py",
+      "source": "tests/test_metrics_v2.py",
+      "blob_sha": "e60252de515d1b8302f09cf3b60ed7bb9b7c4b3b"
+    },
+    {
+      "path": ".kiro/tests/test_metrics_v2_import.py",
+      "source": "tests/test_metrics_v2_import.py",
+      "blob_sha": "8260a93a4f392a9673480d2c35602884948216d1"
+    },
+    {
+      "path": ".kiro/tests/test_quick_rules_build.py",
+      "source": "tests/test_quick_rules_build.py",
+      "blob_sha": "c58287496895b7f9db7da6a27ed1057c5084e3d7"
+    },
+    {
+      "path": ".kiro/tests/test_restore_modality.py",
+      "source": "tests/test_restore_modality.py",
+      "blob_sha": "43aab254fb61e346a4391c8a32980e19fb03ed97"
+    },
+    {
+      "path": ".kiro/tests/test_route_hint.py",
+      "source": "tests/test_route_hint.py",
+      "blob_sha": "1750ffae106164c703460669b1ee7c2a8d1878ab"
+    },
+    {
+      "path": ".kiro/tests/test_run_dir_resolution.py",
+      "source": "tests/test_run_dir_resolution.py",
+      "blob_sha": "12a10e041f19356587de297d794714200d7b58c2"
+    },
+    {
+      "path": ".kiro/tests/test_sanitize.py",
+      "source": "tests/test_sanitize.py",
+      "blob_sha": "be5d76b5f5661ae7ffc531b70fb7356bacf46e7a"
+    },
+    {
+      "path": ".kiro/tests/test_strip_injected_commas.py",
+      "source": "tests/test_strip_injected_commas.py",
+      "blob_sha": "5fce2a9884e4054c6a11b2802ff8df994080f8dd"
+    },
+    {
+      "path": ".kiro/tests/test_verify_gates.py",
+      "source": "tests/test_verify_gates.py",
+      "blob_sha": "2ce49b5d1e6c13d0917b685a8b801ff784689f9c"
+    }
+  ],
+  "adapted_files": [
+    {
+      "path": ".kiro/skills/humanize-korean/SKILL.md",
+      "source": "skills/humanize-korean/SKILL.md"
+    },
+    {
+      "path": ".kiro/prompts/humanize-monolith.txt",
+      "source": "agents/humanize-monolith.md"
+    },
+    {
+      "path": ".kiro/prompts/humanize-diagnostician.txt",
+      "source": "agents/humanize-diagnostician.md"
+    },
+    {
+      "path": ".kiro/prompts/humanize-finalizer.txt",
+      "source": "agents/humanize-finalizer.md"
+    }
+  ]
+}
