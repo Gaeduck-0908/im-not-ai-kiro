@@ -16,8 +16,15 @@ cp "$SCRIPT_DIR/.kiro/skills/humanize-korean/SKILL.md" "$KIRO_DIR/skills/humaniz
 cp "$SCRIPT_DIR/.kiro/skills/humanize-korean/references/quick-rules.md" "$KIRO_DIR/skills/humanize-korean/references/"
 
 # 플레이스홀더를 실제 경로로 치환
-for f in "$KIRO_DIR/agents/"humanize-*.json "$KIRO_DIR/agents/"ai-tell-*.json "$KIRO_DIR/agents/"korean-*.json "$KIRO_DIR/agents/"content-*.json "$KIRO_DIR/agents/"naturalness-*.json; do
-  [ -f "$f" ] && sed -i "s|__KIRO_HOME__|$KIRO_DIR|g" "$f"
+# macOS(BSD sed)는 -i 에 백업 확장자 인자가 필요하다
+if sed --version >/dev/null 2>&1; then
+  SED_INPLACE=(sed -i)
+else
+  SED_INPLACE=(sed -i '')
+fi
+
+for f in "$KIRO_DIR/agents/"*.json; do
+  [ -f "$f" ] && "${SED_INPLACE[@]}" "s|__KIRO_HOME__|$KIRO_DIR|g" "$f"
 done
 
 echo "✓ 설치 완료!"
