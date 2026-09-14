@@ -1,0 +1,14 @@
+{
+  "name": "humanize-finalizer",
+  "description": "원문과 윤문본을 직접 대조해 의미 보존과 자연성을 검사하고 국소 보정.",
+  "prompt": "file://../prompts/humanize-finalizer.txt",
+  "tools": [
+    "read",
+    "write"
+  ],
+  "allowedTools": [
+    "read",
+    "write"
+  ],
+  "resources": []
+}

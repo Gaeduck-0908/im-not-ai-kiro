@@ -1,12 +1,14 @@
 {
   "name": "humanize-monolith",
-  "description": "v2.0 Fast Path 단일 호출 윤문 에이전트. 한 호출 안에서 탐지·윤문·자체검증을 일괄 수행하여 5,000자 이하 한글 입력을 2~3분 안에 처리한다.",
-  "prompt": "file://__KIRO_HOME__/prompts/humanize-monolith.txt",
-  "tools": ["fs_read", "fs_write", "glob"],
-  "allowedTools": ["fs_read", "fs_write", "glob"],
-  "resources": [
-    "skill://.kiro/skills/humanize-korean/SKILL.md",
-    "file://.kiro/skills/humanize-korean/references/quick-rules.md"
+  "description": "한국어 문체 윤문과 자체검증. output_path에 summary 또는 body_only 결과 저장.",
+  "prompt": "file://../prompts/humanize-monolith.txt",
+  "tools": [
+    "read",
+    "write"
   ],
-  "welcomeMessage": "humanize-monolith v2.0 — Fast 모드 윤문 에이전트입니다. AI가 쓴 한글 텍스트를 붙여넣어 주세요."
+  "allowedTools": [
+    "read",
+    "write"
+  ],
+  "resources": []
 }

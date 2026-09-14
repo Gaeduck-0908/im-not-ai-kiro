@@ -1,0 +1,14 @@
+{
+  "name": "humanize-diagnostician",
+  "description": "standard/heavy 진단. 원문 전체의 지배적인 AI 문체 패턴과 보존 지침 작성.",
+  "prompt": "file://../prompts/humanize-diagnostician.txt",
+  "tools": [
+    "read",
+    "write"
+  ],
+  "allowedTools": [
+    "read",
+    "write"
+  ],
+  "resources": []
+}
