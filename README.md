@@ -2,7 +2,10 @@
 
 AI가 쓴 한글 글의 번역투·상투구·기계적인 문장 구조를 다듬는 [Kiro CLI](https://kiro.dev/) 에이전트입니다. 사실·수치·인용·핵심 개념과 원문의 격식은 보존합니다.
 
-[epoko77-ai/im-not-ai](https://github.com/epoko77-ai/im-not-ai)의 커뮤니티 포트입니다. **2026-09-06 원본 커밋 [`9747f036cdc2`](https://github.com/epoko77-ai/im-not-ai/commit/9747f036cdc28a1a8aea4dc71fef1f7846eb96f7)**까지 반영했습니다. 정확한 파일 목록과 Kiro 변환 사항은 [UPSTREAM.md](UPSTREAM.md), 원본 파일 해시는 [UPSTREAM.json](UPSTREAM.json)에 있습니다.
+[epoko77-ai/im-not-ai](https://github.com/epoko77-ai/im-not-ai)의 커뮤니티 포트입니다. 
+2026-09-06 원본 커밋 [`9747f036cdc2`](https://github.com/epoko77-ai/im-not-ai/commit/9747f036cdc28a1a8aea4dc71fef1f7846eb96f7)까지 반영했습니다.
+
+정확한 파일 목록과 Kiro 변환 사항은 [UPSTREAM.md](UPSTREAM.md), 원본 파일 해시는 [UPSTREAM.json](UPSTREAM.json)에 있습니다.
 
 ## 설치 및 업데이트
 
